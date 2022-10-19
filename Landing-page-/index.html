@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Not So Young Adult</title>
+</head>
+<body>
+ <h1>Not So Young Adult </h1>   
+ <h2> A place where YA novel fans are well...adults 📚</h2>
+ <h2> Book Review of the Day: <i> Eleanor & Park</i> by Rainbow Rowell  </h2>
+
+ <div class="review"> 
+   <hr>  
+   <img src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/320/original/book_cover.jpg?1652562480" alt=" # "/> 
+   <br>
+   <div class="container">
+   <h3> Publication information</h3>
+   <ul>
+   <li><strong> Genre</strong>: Romance ❤️</li>
+   <li> <strong>Year</strong>: 2013 </li>
+   <li> <strong>Publisher</strong>: New York: St. Martin's Griffin</li>
+  <li><strong>Awards</strong>: #1 New York Times Bestseller; Micheal L. Printz Award For Excellence In Young Adult Literature</li>
+     </ul>
+  <hr>
+   <h3>Overview of the novel(<em>No Spoilers!</em> 🤐)</h3>
+   <p> In this coming of age novel, readers meet Eleanor, a sensitive yet sarcastic 16-year old white girl who is constantly bullied by her classmates for wearing mismatching clothes and being overweight. Readers also meet Park, a shy sixteen-year old who constantly wears headphones and displays a "loner boy" demeanor to lessen the bullying he faces at school for being biracial. Despite their initial dislike towards each other, the two teenage misfits eventually find common ground over music and go on a journey of love, heartbreak, and finding the confidence to be their true selves in a world that tells them otherwise. </p>
+   <h3> Why I recommend this novel/ Teacher Notes 👩🏽‍🏫</h3>
+   <p> <span>Rowell's writing is highly addictive and superb because unlike other YA romance novels where teen narrators are often adult voices in disguise, Eleanor and Park's adorkable descriptions of love and angst viewpoint of the world makes readers feel like teenagers are actually speaking. Also, the novel's references to other stories like <i>Romeo & Juilet</i> can be useful in a literary unit on rebellion and teenage love since both works explore these themes.</span></p>
+   <hr>
+   <h3> Where can I buy the novel?</h3>
+   <div class="inner">
+    <a href="https://www.amazon.com/Eleanor-Park-Rainbow-Rowell/dp/1250012570/ref=sr_1_1?crid=2RGWPRZ7HHEW9&keywords=eleanor+and+park&qid=1652413103&s=books&sprefix=eleanor+%2Cstripbooks%2C687&sr=1-1/"target="_blank"> Amazon</a> |
+    <a href="https://www.barnesandnoble.com/w/eleanor-park-rainbow-rowell/1110274728?ean=9781250012579/"target="_blank"> Barnes and Nobles</a>  | 
+    <a href="https://books.apple.com/us/book/eleanor-park/id569881601/"target="_blank"> iBooks</a>
+  </div>
+   <br>
+ 
+<h3> Want to see reviews on other novels?</h3>
+<button> Become a club member</button>
+<br>
+ </div>
+ <footer>
+  <p class="books-footer"> This page was built by <a class= "books-link" href= "https://github.com/CBID2"target="_blank"> <em>Christine Belzie</em></a></p>
+</footer>
+<script>
+  function addMember() {
+    let name= prompt("What is your name?");
+    let email= prompt("What is your email address?");
+    let age= prompt("How old are you?");
+    if (age >=16){
+      alert("Welcome to the club " + name + "! Stay tuned for more updates! ");
+    
+    } else {
+      alert("Sorry kiddo! Better luck next year.")
+    }
+    }
+
+    
+
+let memberButton= document.querySelector("button");
+memberButton.addEventListener("click", addMember);
+</script>
+
+</body>
+</html>
