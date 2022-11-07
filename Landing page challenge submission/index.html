@@ -116,5 +116,14 @@ button:hover {
 		  <p class="creator"> Coded by <a class="profile-link" href="https://github.com/CBID2" target="_blank"> Christine
 			  Belzie</a></p>
 		</footer>	
+    <script>
+      function addMember(){
+        let name= prompt("What is your name?");
+        let email= prompt("What is your email?");
+        alert("Welcome to the club?" + name + "! Stay tuned for more updates! "); 
+      }
+      let memberButton = document.querySelector("button");
+      memberButton.addEventListener("click, addMember");
+    </script>
 </body>
 </html>
