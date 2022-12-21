@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+  }
+  h2 {
+	font-family: "Helevetica", sans-serif;
+	font-size: 34px;
+	margin: -1rem;
+	color: #8064e9;
+  }
+  p {
+	font-family: "Source Sans Pro", monospace;
+  }
+  button {
+	background-color: #8064e9;
+	color: #fff;
+	display: block;
+	margin: auto;
+	border-radius: 25px;
+	border: 10px;
+	padding: 16px 24px;
+	font-family: "Arial", san-serif;
+  }
+  .business-info {
+	margin-top: 3em;
+  }
+  .sale-info {
+	margin-top: -15px;
+	margin-bottom: 60px;
+  }
+  
