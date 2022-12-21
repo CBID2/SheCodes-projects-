@@ -25,6 +25,7 @@ body {
 	padding: 16px 24px;
 	font-family: "Arial", san-serif;
 	cursor: pointer;
+	transition: all 200ms ease-in-out;
   }
 	button:hover{
 	background: #5e41a7;
